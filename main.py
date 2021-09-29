@@ -1,8 +1,17 @@
 '''
 Returneaza true daca n este prim si false daca nu.
 '''
+n=int(input("adauga un numar:"))
 def is_prime(n):
-  # codul vostru aici
+
+  if n<2:
+      return False
+  elif:
+      for i in range(2,n//2+1):
+          if n%i==0:
+              return True
+
+
   
   
 '''
